@@ -32,8 +32,19 @@ This project is a dynamic and interactive form built using **React** , designed 
   - Error messages are displayed for any empty fields.
   - The complete form state is displayed below in a structured table format.
 
-### Responsive Design
-- The UI is optimized for all screen sizes, providing a user-friendly experience on both desktop and mobile devices.
+
+### Interactive Footer
+Portfolio Navigation:
+  Clicking on "MD Borno" navigates to the portfolio website in a new tab.
+Social Links:
+    Footer contains clickable icons for:
+        -Facebook
+        -GitHub
+        -LinkedIn
+  Each link opens the respective profile in a new tab.
+## Email Copy to Clipboard:
+      Clicking the email icon copies the email address (adlylislam95@gmail.com) to the clipboard.
+      A success alert notifies the user of the copied email.
 
 ## Technologies Used
 - **React**
