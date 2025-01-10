@@ -2,8 +2,7 @@
 This project is a dynamic and interactive form built using **React** , designed to showcase front-end development skills such as form management, state handling, and validation. It fulfills the requirements of a developer challenge by implementing various dynamic form functionalities.
 
 **live link**: [https://reliable-platypus-69c4fc.netlify.app/]
-(/src/assets/Website screensort/dark.png)(/src/assets/Website screensort/light.png)
-
+![dark](https://github.com/user-attachments/assets/39504293-90f4-45bd-9118-8cabae3c17d4)![light](https://github.com/user-attachments/assets/10b21ef6-4c0e-4ecf-bef9-ce1c0a28c2a8)
 
 ## Features
 
