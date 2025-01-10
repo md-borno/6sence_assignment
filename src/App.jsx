@@ -82,7 +82,7 @@ const FormComponent = () => {
     navigator.clipboard.writeText(textToCopy)
       .then(() => {
         setMessage('Mail clipboard!');
-        setTimeout(() => setMessage(''), 2000); // Clear message after 2 seconds
+        setTimeout(() => setMessage(''), 2000); // Clear message after 2 seconds.......
       })
       .catch((err) => {
         console.error('Failed to copy text: ', err);
