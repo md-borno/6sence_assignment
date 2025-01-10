@@ -11,7 +11,7 @@ const FormComponent = () => {
   const [formFields, setFormFields] = useState([{ input: '', select: '' }]);
   const [errors, setErrors] = useState([]);
   const [submittedData, setSubmittedData] = useState([]);
-  const [darkMode, setDarkMode] = useState(false); // Theme state
+  const [darkMode, setDarkMode] = useState(false); 
   const [message, setMessage] = useState('');
 
   const handleInputChange = (index, event) => {
@@ -79,7 +79,6 @@ const FormComponent = () => {
   const copyToClipboard = () => {
     const textToCopy = 'adlulislam95@gmail.com';
 
-    // Copy text to clipboard using the Clipboard API
     navigator.clipboard.writeText(textToCopy)
       .then(() => {
         setMessage('Mail clipboard!');
@@ -167,9 +166,9 @@ const FormComponent = () => {
                         required
                       >
                         <option value="">Select</option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                        <option value="option3">Option 3</option>
+                        <option value="option1">Option A</option>
+                        <option value="option2">Option B</option>
+                        <option value="option3">Option C</option>
                       </select>
                       {errors[index]?.select && <span className="text-error">{errors[index].select}</span>}
                     </div>
