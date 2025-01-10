@@ -1,4 +1,4 @@
-# Dynamic Form - Frontend Developer Challenge
+# Dynamic Form 
 This project is a dynamic and interactive form built using **React** , designed to showcase front-end development skills such as form management, state handling, and validation. It fulfills the requirements of a developer challenge by implementing various dynamic form functionalities.
 
 **live link**: [https://reliable-platypus-69c4fc.netlify.app/]
